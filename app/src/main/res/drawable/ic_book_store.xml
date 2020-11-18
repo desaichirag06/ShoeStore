@@ -1,0 +1,12 @@
+<vector android:height="24dp" android:viewportHeight="64"
+    android:viewportWidth="64" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#FF000000" android:pathData="m23,7h6v2h-6z"/>
+    <path android:fillColor="#FF000000" android:pathData="m23,11h6v2h-6z"/>
+    <path android:fillColor="#FF000000" android:pathData="m23,15h6v2h-6z"/>
+    <path android:fillColor="#FF000000" android:pathData="m35,7h6v2h-6z"/>
+    <path android:fillColor="#FF000000" android:pathData="m35,11h6v2h-6z"/>
+    <path android:fillColor="#FF000000" android:pathData="m35,15h6v2h-6z"/>
+    <path android:fillColor="#FF000000" android:pathData="m46,44h-12a2,2 0,0 0,-2 2v6a2,2 0,0 0,2 2h12a2,2 0,0 0,2 -2v-6a2,2 0,0 0,-2 -2zM34,52v-6h12v6z"/>
+    <path android:fillColor="#FF000000" android:pathData="m53.816,60a2.966,2.966 0,0 0,0.184 -1v-19.423a4.98,4.98 0,0 0,2.9 -3.577h1.1a1,1 0,0 0,1 -1,18.864 18.864,0 0,0 -10,-16.713v-11.287a1,1 0,0 0,-1 -1h-3v-3a1,1 0,0 0,-1 -1h-24a1,1 0,0 0,-1 1v3h-3a1,1 0,0 0,-1 1v11.284a18.866,18.866 0,0 0,-10 16.716,1 1,0 0,0 1,1h1.1a4.977,4.977 0,0 0,2.9 3.581v19.419a2.966,2.966 0,0 0,0.184 1h-6.184v2h56v-2zM52.022,22.976a16.923,16.923 0,0 1,4.95 11.024h-0.972a1,1 0,0 0,-1 1,2.994 2.994,0 0,1 -2.271,2.907 2.634,2.634 0,0 1,-0.729 0.093,3 3,0 0,1 -3,-3v-4a14.855,14.855 0,0 0,-0.87 -5.026,0.989 0.989,0 0,0 0.87,-0.974v-4.411a16.829,16.829 0,0 1,3.022 2.387zM17,31a12.827,12.827 0,0 1,1.018 -5h4.982v9a3,3 0,0 1,-6 0zM25,26h6v9a3,3 0,0 1,-6 0zM33,26h6v9a3,3 0,0 1,-6 0zM41,26h4.982a12.809,12.809 0,0 1,1.018 5v4a3,3 0,0 1,-6 0zM45,21v-13h2v16h-14v-2h11a1,1 0,0 0,1 -1zM43,20h-10v-16h10zM21,4h10v16h-10zM17,8h2v13a1,1 0,0 0,1 1h11v2h-14zM9,35a1,1 0,0 0,-1 -1h-0.971a16.858,16.858 0,0 1,7.971 -13.41v4.41a0.989,0.989 0,0 0,0.87 0.974,14.843 14.843,0 0,0 -0.87,5.026v4a3,3 0,0 1,-3 3,2.7 2.7,0 0,1 -0.753,-0.1 2.987,2.987 0,0 1,-2.247 -2.9zM26,60h-8v-13a1,1 0,0 1,1 -1h6a1,1 0,0 1,1 1zM28,60v-13a3,3 0,0 0,-3 -3h-6a3,3 0,0 0,-3 3v13h-3a1,1 0,0 1,-1 -1v-19a4.982,4.982 0,0 0,4 -2.031,4.954 4.954,0 0,0 8,0 4.954,4.954 0,0 0,8 0,4.954 4.954,0 0,0 8,0 4.954,4.954 0,0 0,8 0,4.982 4.982,0 0,0 4,2.031v19a1,1 0,0 1,-1 1z"/>
+    <path android:fillColor="#FF000000" android:pathData="m23,51h2v4h-2z"/>
+</vector>
