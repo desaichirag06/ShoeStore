@@ -25,7 +25,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_book_store"
+            app:srcCompat="@drawable/ic_shoe_shop"
             app:tint="@color/colorPrimaryDark" />
 
         <TextView
