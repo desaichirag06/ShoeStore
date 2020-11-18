@@ -51,7 +51,7 @@
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnNext"
             style="@style/NextButtonStyle"
-            android:contentDescription="@string/next"
+            android:contentDescription="@string/btn_next"
             android:drawableEnd="@drawable/ic_arrow_forward"
             android:onClick="@{() -> shoeViewModel.onOpenShoesList()}"
             android:text="@string/btn_next"
