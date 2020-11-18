@@ -7,13 +7,13 @@
 
         <variable
             name="viewModel"
-            type="com.udacity.shoestore.ShoeViewModel" />
+            type="com.udacity.shoestore.viewmodel.ShoeViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginTop="70dp"
+        android:padding="@dimen/margin_small"
         tools:context=".screens.shoeList.ShoesListFragment">
 
         <ScrollView

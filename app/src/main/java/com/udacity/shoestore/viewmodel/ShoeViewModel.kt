@@ -1,9 +1,10 @@
-package com.udacity.shoestore
+package com.udacity.shoestore.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.udacity.shoestore.models.Shoe
+import com.udacity.shoestore.screens.MainActivity
 import com.udacity.shoestore.utils.PreferencesHelper
 import com.udacity.shoestore.utils.Utils
 

@@ -7,9 +7,9 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.udacity.shoestore.R
-import com.udacity.shoestore.ShoeViewModel
 import com.udacity.shoestore.databinding.FragmentShoesListBinding
 import com.udacity.shoestore.databinding.ShoeItemViewBinding
+import com.udacity.shoestore.viewmodel.ShoeViewModel
 
 class ShoesListFragment : Fragment() {
 
@@ -45,8 +45,6 @@ class ShoesListFragment : Fragment() {
 
         })
 
-        mBinding.root.systemUiVisibility =
-            View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
         return mBinding.root
     }
 

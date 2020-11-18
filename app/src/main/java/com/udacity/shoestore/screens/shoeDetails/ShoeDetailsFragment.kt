@@ -10,9 +10,9 @@ import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
 import com.udacity.shoestore.R
-import com.udacity.shoestore.ShoeViewModel
 import com.udacity.shoestore.databinding.FragmentShoeDetailsBinding
 import com.udacity.shoestore.models.Shoe
+import com.udacity.shoestore.viewmodel.ShoeViewModel
 
 class ShoeDetailsFragment : Fragment() {
 
@@ -57,8 +57,6 @@ class ShoeDetailsFragment : Fragment() {
                 viewModel.onSnackbarComplete()
             }
         })
-        mBinding.root.systemUiVisibility =
-            View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
         return mBinding.root
     }
 

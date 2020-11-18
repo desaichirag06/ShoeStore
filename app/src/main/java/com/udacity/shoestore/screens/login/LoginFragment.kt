@@ -4,16 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.core.view.WindowCompat
 import androidx.databinding.DataBindingUtil
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
-import com.udacity.shoestore.MainActivity
 import com.udacity.shoestore.R
-import com.udacity.shoestore.ShoeViewModel
 import com.udacity.shoestore.databinding.FragmentLoginBinding
+import com.udacity.shoestore.screens.MainActivity
+import com.udacity.shoestore.viewmodel.ShoeViewModel
 
 class LoginFragment : Fragment() {
 
@@ -49,8 +48,6 @@ class LoginFragment : Fragment() {
             }
         })
 
-        mBinding.root.systemUiVisibility =
-            View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION or View.SYSTEM_UI_FLAG_LAYOUT_STABLE
         return mBinding.root
     }
 

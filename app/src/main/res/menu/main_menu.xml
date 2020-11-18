@@ -5,8 +5,7 @@
 
     <item
         android:id="@+id/actionLogOut"
-        android:icon="@android:drawable/ic_lock_power_off"
-        android:iconTint="@android:color/white"
+        android:icon="@drawable/ic_exit_app"
         android:title="@string/logout"
         android:visible="false"
         app:showAsAction="always"
